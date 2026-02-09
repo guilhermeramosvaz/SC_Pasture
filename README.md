@@ -3,24 +3,15 @@
 [//]:#(imagem_pastagem)
 <br>
 <div align="center">
-    <img src="imgs/campo_DSC_0630_25_11_2025_15_23.jpg" width="80%" alt="Processo de Operacionalização">
+    <img src="imgs/campo_DSC_0630_25_11_2025_15_23.jpg" width="100%" alt="Foto_pastagem_Vieira_Mesquita(11/2025)">
     <p><i>Figura 1: Lapig(11/2025).</i></p>
 </div>
 
 [//]: #(Introducao)
 <h2 align="Left">Introdução</h2>
 <div align="justify"> 
-    Trabalho de mapeamento das pastagens do estado de Santa Catarina para o ano de 2024 realizado pela parceria entre Lapig e Remapgeo. Utilizando imagens do satélite Sentinel 2A/B com 10 metros de resolução espacial, dados de referência do Mapbiomas e Global Pasture Watch, foi possível gerar uma classificação supervisionada para todo o estado, realizada com o Algorítmo Random Forest, descrita em <a href="pasta_de_metodologia.sh">metodologia</a>.
+    Trabalho de mapeamento das pastagens do estado de Santa Catarina para o ano de 2024 realizado pela parceria entre Lapig e Remapgeo. Utilizando imagens do satélite Sentinel 2A/B com 10 metros de resolução espacial, dados de referência do Mapbiomas e Global Pasture Watch, foi possível gerar uma classificação supervisionada para todo o estado, realizada com o Algorítmo Random Forest, descrita em <a href="./metodologia/">metodologia</a>.
 </div>
-
-
-[//]:#(imagem_metodologia)
-<br>
-<div align="center">
-    <img src="imgs/Metodologia_Pastagens_SC.png" width="90%" alt="Processo de Operacionalização">
-    <p><i>Figura 2: Processo metodologico.</i></p>
-</div>
-<br>
 
 [//]:#(lista)
 <br>
