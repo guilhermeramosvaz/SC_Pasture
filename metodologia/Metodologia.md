@@ -3,7 +3,7 @@
 [//]: #(Mapbiomas_carta_IBGE)
 <h3 align="Left">Definição de metodologia</h3>
 <div align="justify"> 
-    A metodologia de classificação utilizando o algoritmo Random Forest descrita no <a href=""> Documento Base Teórico de Algoritmos (ATBD) </a>, realizada pelo Mapbiomas (figura 1) foi base para projeto. Usar cartas do Instituto Brasileiro de Geografia e Estatística (IBGE) para delimitar regiões de classificação.
+    A metodologia de classificação utilizando o algoritmo Random Forest descrita no <a href=""> Documento Base Teórico de Algoritmos (ATBD) </a>, realizada pelo Mapbiomas (figura 1) foi base para projeto. Usar cartas do Instituto Brasileiro de Geografia e Estatística (IBGE) para delimitar regiões de classificação. Para cada carta, é utilizado as amostras da carta central e um buffer de 100 km da vizinhança para o treinamento do classificador. São 12 modelos no total.
 </div>
 
 [//]:#(imagem_metodologia)
@@ -53,6 +53,11 @@
 [//]: #(TVI)
 <h3 align="Left"> Inspeção visual de pontos</h3>
 <div align="justify"> 
-    Utilizando as 12440 amostras de treinamento geradas para o estado de Santa Catarina, sendo elas 4146 amostras para cada classe, foi feita a inspeção dessas por meio da ferramenta <a href="https://tvi.lapig.iesa.ufg.br/#/login"> Temporal Visual Inspection (TVI) </a> (figura 2) com 8 interpretes realizando a tarefa, sendo 3 para cada ponto.
+    Utilizando as 12440 amostras de treinamento geradas para o estado de Santa Catarina, sendo elas 4146 amostras para cada classe, foi feita a inspeção dessas por meio da ferramenta <a href="https://tvi.lapig.iesa.ufg.br/#/login"> Temporal Visual Inspection (TVI) </a> (figura 2) com 8 interpretes realizando a tarefa, sendo 3 para cada ponto. Para guiar os interpretes e manter um padrão, os treinamentos foram feitos com base na <a href="https://docs.google.com/presentation/d/14btajwTHDlzbbUBkzLCp_Xkhf3z1T0N4tCqUNYvzHHo/edit?usp=sharing"> chave de interpretação</a> costruída para o projeto.
 </div>
 
+[//]: #(Classificacao)
+<h3 align="Left"> Inspeção visual de pontos</h3>
+<div align="justify"> 
+    Utilizando as 12440 amostras de treinamento geradas para o estado de Santa Catarina, sendo elas 4146 amostras para cada classe, foi feita a inspeção dessas por meio da ferramenta <a href="https://tvi.lapig.iesa.ufg.br/#/login"> Temporal Visual Inspection (TVI) </a> (figura 2) com 8 interpretes realizando a tarefa, sendo 3 para cada ponto. Para guiar os interpretes e manter um padrão, os treinamentos foram feitos com base na <a href="https://docs.google.com/presentation/d/14btajwTHDlzbbUBkzLCp_Xkhf3z1T0N4tCqUNYvzHHo/edit?usp=sharing"> chave de interpretação</a> costruída para o projeto.
+</div>
