@@ -13,7 +13,7 @@
     Trabalho de mapeamento das pastagens do estado de Santa Catarina para o ano de 2024 realizado pela parceria entre Lapig e Remapgeo. Utilizando imagens do satélite Sentinel 2A/B com 10 metros de resolução espacial, dados de referência do Mapbiomas e Global Pasture Watch, foi possível gerar uma classificação supervisionada para todo o estado, realizada com o Algorítmo Random Forest, descrita em <a href="./metodologia/">metodologia</a>.
 </div>
 
-[//]:#(lista)
+[//]:#(lista_dados_localizacao)
 <br>
 <div align="justify">
     No presente repositório serão encontrados os seguintes dados:
@@ -27,7 +27,7 @@
             <li><a href="metodologia/README.md#refinamento_e_auditoria"> Refinamento e auditoria </a>;</li>
         </ol>
         <li><b></b> <a href="metodologia/Scripts/">Scripts</a> utilizados em shell script, javascript (utilizado dentro do ambiente Google Earth engine, GEE) e python;</li>
-        <li><b></b><a href=""> Resultados gerados </a> no processo;</li>
+        <li><b></b><a href="Resultados/"> Resultados gerados </a> no processo;</li>
         </li>
     </ul>    
 </div>
@@ -49,11 +49,11 @@
 </div>
 <br>
 
-[//]: #(Requisitos)
+[//]: #(reconhecimento)
 <h2 align="Left">Acknowledgements</h2>
 
 | | |
 |:---:|:---:|
 |This research was supported by Epagri| <div align="center"> <img src="imgs\epagri.png" width="65%" alt="Processo de Operacionalização"> </div>|
-|This research was supported by Remapgeo|<div align="center"> <img src="imgs\REMAPgeo.png" width="120%" alt="Processo de Operacionalização"> </div>|
 |This research was supported by LAPIG/UFG|<div align="center"> <img src="imgs\LAPIG Logo.png" width="25%" alt="Processo de Operacionalização"> </div>|
+|This research was supported by Remapgeo|<div align="center"> <img src="imgs\REMAPgeo.png" width="120%" alt="Processo de Operacionalização"> </div>|

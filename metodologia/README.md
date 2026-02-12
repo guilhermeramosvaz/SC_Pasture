@@ -67,7 +67,7 @@
 [//]: #(TVI)
 <h3 align="left" id="inspecao">Inspeção visual de pontos</h3>
 <div align="justify"> 
-    Utilizando as 12440 amostras de treinamento geradas para o estado de Santa Catarina, sendo elas 4146 amostras para cada classe, foi feita a inspeção dessas por meio da ferramenta <a href="https://tvi.lapig.iesa.ufg.br/#/login"> Temporal Visual Inspection (TVI) </a> (figura 2) com 8 interpretes realizando a tarefa, sendo 3 para cada ponto. Para guiar os interpretes e manter um padrão, os treinamentos foram feitos com base na <a href="https://docs.google.com/presentation/d/14btajwTHDlzbbUBkzLCp_Xkhf3z1T0N4tCqUNYvzHHo/edit?usp=sharing"> chave de interpretação</a> costruída para o projeto.
+    Utilizando as 12440 amostras de treinamento geradas para o estado de Santa Catarina, sendo elas 4146 amostras para cada classe, foi feita a inspeção dessas por meio da ferramenta <a href="https://tvi.lapig.iesa.ufg.br/#/login"> Temporal Visual Inspection (TVI) </a> (figura 2) com 8 interpretes realizando a tarefa, sendo 3 para cada ponto. Para guiar os interpretes e manter um padrão, os treinamentos foram feitos com base na <a href="../Resultados/Chave de Interpretação das Pastagens para o Estado de Santa Catarina.pdf"> chave de interpretação</a> costruída para o projeto.
 </div>
 <br>
 
@@ -86,7 +86,6 @@
             <li><a href="metodologia\Scripts\Classificacao.js"> Classificação binária</a>;</li>
             <li><a href="metodologia/Scripts/Filtro_moda_mediana.js"> Filtro de moda com kernel 5x5</a>.</li>
         </ol>
-    Para a classificação foram usados as 12440 amostras inspecionadas e implementados mais 22 amostras de corpos hídricos, visando definir melhor a classe que não estava sendo analisada e gerando ruídos. 
 </div>
 <br>
 
