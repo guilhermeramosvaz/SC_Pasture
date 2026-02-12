@@ -20,16 +20,40 @@
     <ul>
         <li>Processos metodológicos realizados no decorrer do projeto:</li>
         <ol>
-            <li><a href=""> Definição de metodologia </a> ;</li>
+            <li><a href="metodologia\README.md"> Definição de metodologia </a> ;</li>
             <li><a href=""> Geração de amostras </a>;</li>
-            <li><a href=""> Classificação </a>;</li>
-            <li><a href=""> Chave de interpretação </a>;</li>
-            <li><a href=""> Refinamento e auditoria </a>;</li>
+            <li><a href="metodologia/README.md#classificacao"> Classificação </a>;</li>
+            <li><a href="metodologia/README.md#inspecao"> Chave de interpretação </a>;</li>
+            <li><a href="metodologia/README.md#refinamento_e_auditoria"> Refinamento e auditoria </a>;</li>
         </ol>
-        <li><b></b> <a href="">Scripts</a> utilizados em shell script, javascript (utilizado no Google Earth engine, GEE), python;</li>
+        <li><b></b> <a href="metodologia/Scripts/">Scripts</a> utilizados em shell script, javascript (utilizado dentro do ambiente Google Earth engine, GEE) e python;</li>
         <li><b></b><a href=""> Resultados gerados </a> no processo;</li>
-        </li>
-        <li><b></b><a href=""> Validação </a> dos dados realizada em campo.</li>
         </li>
     </ul>    
 </div>
+
+[//]: #(Base_de_dados)
+<h2 align="Left">Bases de dados</h2>
+<div align="justify"> 
+    Foram utilizados como dados de referência os dados de pastagem <a href="https://brasil.mapbiomas.org/">Mapbiomas</a> e global pasture watch do <a href="https://landcarbonlab.org/about-global-pasture-watch/">Land & Carbon Lab</a> para gerar os pontos utilizados.
+</div>
+
+[//]: #(Requisitos)
+<h2 align="Left">Requisitos</h2>
+<div align="Left"> 
+    <ul>
+        <li>Python 3.12 ou superior</li>
+        <li>Numpy 2.2.4 python package</li>
+        <li>Gdal Binaries 3.10.3 </li>
+    </ul>    
+</div>
+<br>
+
+[//]: #(Requisitos)
+<h2 align="Left">Acknowledgements</h2>
+
+| | |
+|:---:|:---:|
+|This research was supported by Epagri| <div align="center"> <img src="imgs\epagri.png" width="65%" alt="Processo de Operacionalização"> </div>|
+|This research was supported by Remapgeo|<div align="center"> <img src="imgs\REMAPgeo.png" width="120%" alt="Processo de Operacionalização"> </div>|
+|This research was supported by LAPIG/UFG|<div align="center"> <img src="imgs\LAPIG Logo.png" width="25%" alt="Processo de Operacionalização"> </div>|
