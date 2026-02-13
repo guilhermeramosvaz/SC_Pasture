@@ -10,10 +10,10 @@
 
 [//]:#(table)
 
-| Variável | Tipo de Dado | Arquivo (Link do Drive) |
+| Variável | Tipo de Dado | atalho |
 | :---: | :---: | :---: |
 | regiões de inspeção | vetor | [regiões separadas]() |
-| Chave de Interpretação | tabela | [tabela de campo](./Chave%20de%20Interpretação%20das%20Pastagens%20para%20o%20Estado%20de%20Santa%20Catarina.pdf) |
+| Chave de Interpretação | pdf | [Chave de interpretação de classes](./Chave%20de%20Interpretação%20das%20Pastagens%20para%20o%20Estado%20de%20Santa%20Catarina.pdf) |
 | Pontos de treino | vetor | [pontos de treinamento](./train_samples.geojson) |
 | Malha quadriculada da área de estudo| vetor | [malha quadriculada de Santa Catarina]() |
 | Arquivos refinados por semana | raster | [refinamentos semanais]() |
