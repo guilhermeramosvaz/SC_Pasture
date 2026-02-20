@@ -83,8 +83,8 @@
 <div align="justify"> 
     A metodologia realizada pelo mapbiomas de classificação de áreas de pastagem foi adaptanda pois a possibilidade de classificar áreas de pastagem naturais e pastagens cultivadas foi explorada em testes (representados na figura 3). A classificação binária que separava as classes de todas as pastagens por outros foi a mais correspondente com a realidade, sendo essa feita em 2 etapas, sendo elas:
      <ol>
-            <li><a href="metodologia\Scripts\Classificacao.js"> Classificação binária</a>;</li>
-            <li><a href="metodologia/Scripts/Filtro_moda_mediana.js"> Filtro de moda com kernel 5x5</a>.</li>
+            <li><a href="./Scripts/Classificacao.js"> Classificação binária</a>;</li>
+            <li><a href="./Scripts/Filtro_moda_mediana.js"> Filtro de moda com kernel 5x5</a>.</li>
         </ol>
 </div>
 <br>
@@ -106,13 +106,13 @@
 [//]: #(Refinamento)
 <h3 align="left" id="refinamento_e_auditoria">Refinamento e Auditoria</h3>
 <div align="justify"> 
-     Utilizando o software <a href="https://qgis.org/"> Qgis </a> juntamente um conjunto de ferramentas para a inspeção, sendo eles imagens sentinel, e o plug-in <a href="https://github.com/SMByC/ThRasE"> thRasE </a>
+     Utilizando o software <a href="https://qgis.org/"> Qgis </a> juntamente com o plug-in <a href="https://github.com/SMByC/ThRasE"> thRasE </a> e imagens sentinel, possibilitaram a atividade de refinamento e auditoria dos dados recortados por regiões.
 </div>
 <br>
 
 [//]:#(imagem_fluxograma)
 <div align="center">
     <img src="../imgs/fluxograma_codigos.png" width="85%" alt="classificacoes">
-    <p><i>Figura 4: Fluxograma de processamento de dados.</i></p>
+    <p><i>Figura 5: Fluxograma de processamento de dados.</i></p>
 </div>
 <br>
