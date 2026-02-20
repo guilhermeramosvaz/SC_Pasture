@@ -99,7 +99,7 @@
 [//]: #(Refinamento)
 <h3 align="left" id="refinamento_e_auditoria">Refinamento e Auditoria</h3>
 <div align="justify"> 
-     Utilizando o software <a href="https://qgis.org/"> Qgis </a> foi utilizado um conjunto de ferramentas para a inspeção, sendo eles imagens sentinel, e o software <a href="https://github.com/SMByC/ThRasE"> thRasE... </a>
+     Utilizando o software <a href="https://qgis.org/"> Qgis </a> foi utilizado um conjunto de ferramentas para a inspeção, sendo eles imagens sentinel, e o plug-in <a href="https://github.com/SMByC/ThRasE"> thRasE... </a>
 </div>
 <br>
 
