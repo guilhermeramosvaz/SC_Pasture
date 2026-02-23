@@ -18,7 +18,7 @@
 [//]: #(Mapbiomas_carta_IBGE)
 <h3 align="left" id="definicao">Definição de metodologia</h3>
 <div align="justify"> 
-    A metodologia de classificação utilizando o algoritmo Random Forest descrita no <a href=""> Documento Base Teórico de Algoritmos (ATBD) </a>, realizada pelo Mapbiomas (figura 1) foi base para projeto. Usar cartas do Instituto Brasileiro de Geografia e Estatística (IBGE) para delimitar regiões de classificação. Para cada carta, é utilizado as amostras da carta central e um buffer de 100 km da vizinhança para o treinamento do classificador. São 12 modelos no total.
+    A metodologia de classificação utilizando o algoritmo Random Forest descrita no <a href="https://amazonia.mapbiomas.org/wp-content/uploads/sites/10/2024/09/Apendice-12-Pastos-Coleccion-6.0.pdf"> Documento Base Teórico de Algoritmos (ATBD) </a>, realizada pelo Mapbiomas (figura 1) foi base para projeto. Usar cartas do Instituto Brasileiro de Geografia e Estatística (IBGE) para delimitar regiões de classificação. Para cada carta, é utilizado as amostras da carta central e um buffer de 100 km da vizinhança para o treinamento do classificador. São 12 modelos no total.
 </div>
 <br>
 

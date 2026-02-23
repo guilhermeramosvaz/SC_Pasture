@@ -87,7 +87,7 @@
 [//]: #(ALINHAR_UNIR)
 <h3 align="left" id="align">Alinhamento de Dados</h3>
 <div align="justify"> 
-    Posterior ao processo de checagem é gerado, após verificar compatibilidade dos dados, o processo de união e alinhamento. <br>
+    Posterior ao processo de checagem é gerado, após verificar compatibilidade dos dados, os processos de união e alinhamento e reprojeção foram aplicados. <br>
     <a href="./uniao_de_dados.sh"><kbd> Código de alinhar e unir rasters </kbd></a> 
 </div>
 <br>

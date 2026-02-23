@@ -23,7 +23,7 @@
             <li><a href="metodologia\README.md"> Definição de metodologia </a> ;</li>
             <li><a href=""> Geração de amostras </a>;</li>
             <li><a href="metodologia/README.md#classificacao"> Classificação </a>;</li>
-            <li><a href="metodologia/README.md#inspecao"> Chave de interpretação </a>;</li>
+            <li><a href="./Resultados/Chave de Interpretação das Pastagens para o Estado de Santa Catarina.pdf"> Chave de interpretação </a>;</li>
             <li><a href="metodologia/README.md#refinamento_e_auditoria"> Refinamento e auditoria </a>;</li>
         </ol>
         <li><b></b> <a href="metodologia/Scripts/">Scripts</a> utilizados em shell script, javascript (utilizado dentro do ambiente Google Earth engine, GEE) e python;</li>
